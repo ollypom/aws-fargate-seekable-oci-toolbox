@@ -2,7 +2,8 @@ version: 2
 updates:
   # Enable version updates for Python
   - package-ecosystem: "gomod"
-    directory: "/"
+    directories:
+      - "/ami-i-lazy/app"
     schedule:
       interval: "weekly"
 #    reviewers:
@@ -10,7 +11,9 @@ updates:
 
   # Enable version updates for Docker
   - package-ecosystem: "docker"
-    directory: "/"
+    directories:
+      - "/ami-i-lazy"
+      - "/containerized-index-builder"
     schedule:
       interval: "weekly"
 #    reviewers:
