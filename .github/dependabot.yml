@@ -6,9 +6,8 @@ updates:
       - "/am-i-lazy/app"
     schedule:
       interval: "weekly"
-    versioning-strategy: auto
     allow:
-      - dependency-type: "direct"
+      - dependency-type: "all"
 
 #  # Enable version updates for python
 #  - package-ecosystem: "pip"
