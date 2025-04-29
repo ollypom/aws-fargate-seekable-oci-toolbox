@@ -1,0 +1,26 @@
+version: 2
+updates:
+  # Enable version updates for golang
+  - package-ecosystem: "gomod"
+    directories:
+      - "/am-i-lazy/app"
+    schedule:
+      interval: "weekly"
+    allow:
+      - dependency-type: "all"
+
+#  # Enable version updates for python
+#  - package-ecosystem: "pip"
+#    directories:
+#      - "/ecs-task-events/app"
+#    schedule:
+#      interval: "weekly"
+
+#  # Enable version updates for Docker
+#  - package-ecosystem: "docker"
+#    directories:
+#      - "/am-i-lazy"
+#      - "/containerized-index-builder"
+#      - "/ecs-task-events"
+#    schedule:
+#      interval: "weekly"

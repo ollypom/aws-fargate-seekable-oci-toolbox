@@ -5,7 +5,7 @@ go 1.23
 require github.com/aws/amazon-ecs-agent/ecs-agent v0.0.0-20240528202446-27ca59a0a052
 
 require (
-	github.com/aws/aws-sdk-go v1.53.19 // indirect
+	github.com/aws/aws-sdk-go v1.55.6 // indirect
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 // indirect
 	github.com/docker/docker v26.1.5+incompatible // indirect
 	github.com/docker/go-connections v0.5.0 // indirect
